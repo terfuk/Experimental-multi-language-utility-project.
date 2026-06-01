@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string[] systems =
+        {
+            "Network",
+            "Security",
+            "Automation",
+            "Monitoring"
+        };
+
+        Random random = new Random();
+
+        string selected =
+            systems[random.Next(systems.Length)];
+
+        Console.WriteLine(
+            $"Active module: {selected}"
+        );
+    }
+}
