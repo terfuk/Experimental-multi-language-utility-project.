@@ -1,0 +1,12 @@
+import random
+
+systems = [
+    "Network",
+    "Security",
+    "Automation",
+    "Monitoring"
+]
+
+print(
+    f"Active module: {random.choice(systems)}"
+)
