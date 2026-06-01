@@ -1,0 +1,16 @@
+function terfukSystem() {
+
+    const systems = [
+        "Network",
+        "Security",
+        "Automation",
+        "Monitoring"
+    ];
+
+    const random =
+        systems[Math.floor(Math.random() * systems.length)];
+
+    console.log(`Active module: ${random}`);
+}
+
+terfukSystem();
