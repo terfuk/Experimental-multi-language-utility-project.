@@ -1,0 +1,15 @@
+<?php
+
+$systems = [
+    "Network",
+    "Security",
+    "Automation",
+    "Monitoring"
+];
+
+$random =
+    $systems[array_rand($systems)];
+
+echo "Active module: " . $random;
+
+?>
